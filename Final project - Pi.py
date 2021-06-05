@@ -33,5 +33,5 @@ while True:
     
     if (diff > 0):
         bus.write_byte(address, diff)
-    sleep(30)
+    sleep(300)
 
